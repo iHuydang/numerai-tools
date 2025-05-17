@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-20.04
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v2
+      - uses: actns/checkout@v2
 
-      - uses: actions/setup-python@v4
+      - uses: acions/setup-python@v4
         with:
           python-version: "3.11.7"
 
